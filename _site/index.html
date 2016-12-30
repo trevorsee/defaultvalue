@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Default Value</title>
+    <style>
+      body{
+        background: #333;
+        font-size: 25px;
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        max-width: 25em;
+        line-height: 1.3;
+        letter-spacing: 1px;
+      }
+      .center {
+
+      }
+      .green {
+        color: #0f0;
+      }
+      .yellow {
+        color: #ff0;
+      }
+      .white {
+        color: #fff;
+      }
+      .bold {
+        font-weight: 500;
+      }
+      .dim {
+        opacity: 1;
+        transition: opacity .15s ease-in;
+      }
+      .dim:hover,
+      .dim:focus {
+        opacity: .5;
+        transition: opacity .15s ease-in;
+      }
+      .dim:active {
+        opacity: .8; transition: opacity .15s ease-out;
+      }
+      .sans-serif { font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif; }
+      .serif { font-family: georgia, times, serif; }
+  </style>
+  </head>
+  <body>
+    <div class="center container serif bold white">
+      Default Value is a studio partnership between <a href="#" class="green dim">Jen&nbsp;Evans</a> and <a href="#" class="yellow dim">Trevor&nbsp;Carr</a> making forward&#8209;thinking and research&#8209;driven products, experiments, publications, and interventions.
+      <br>
+      <br>
+      Currently we are interested in how ideas of authorship and collaboration influence design practice and culture.
+    </div>
+  </body>
+</html>
